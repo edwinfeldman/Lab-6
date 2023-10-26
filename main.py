@@ -14,4 +14,5 @@ if __name__ == "__main__":
     decoded = decode(password)
     print(f"Original Password: {password}")
     print(f"Encoded Password: {encoded}")
+    print(f"Decoded Password: {decoded}")
 #changes
