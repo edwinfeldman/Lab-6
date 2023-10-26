@@ -7,6 +7,15 @@ def main():
         return encoded_password
     pass
 
+def decode(password):
+    decoded = ''
+
+    for num in password:
+        decoded_num = int(num) - 3
+        decoded += str(decoded_num)
+
+    return decoded
+
 if __name__ == "__main__":
     main()
     password = input("Enter 8-digit password: ")
