@@ -13,3 +13,4 @@ if __name__ == "__main__":
     encoded = encode(password)
     print(f"Original Password: {password}")
     print(f"Encoded Password: {encoded}")
+#changes
