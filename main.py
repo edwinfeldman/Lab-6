@@ -11,6 +11,7 @@ if __name__ == "__main__":
     main()
     password = input("Enter 8-digit password: ")
     encoded = encode(password)
+    decoded = decode(password)
     print(f"Original Password: {password}")
     print(f"Encoded Password: {encoded}")
 #changes
